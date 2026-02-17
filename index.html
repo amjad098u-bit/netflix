@@ -1,91 +1,180 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Website Clone - Easy Tutorials</title>
+    <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="header">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <div>
-                <button class=" English-button">
-
-                    English <img src="images/down-icon.png">
-                </button>
-                <button>
-                    Sign in
-                </button>
-            </div>
-        </nav>
+<div class="header">
+    <nav>
+        <img src="images/logo.png"class="logo">
         <div>
-            <div class="header-content">
-                <h1>Unlimited movies, </h1>
-                <h2>shows, and more</h2>
-                <h3>Starts at ₹149. Cancel at any time.</h3>
-                <p>Ready to watch? Enter your email to create or restart your membership.
-                </p>
-                <form class="email-signup">
-                    <input type="email" placeholder="Email address" required>
-                    <button type="submit">Get Started</button>
-                </form>
-            </div>
+            <button class="language-btn">English <img src="images/down-icon.png"></button>
+            <button>Sign In</button>
         </div>
-    </div>
-    <!--Trending Now Section-->
-    <div class="container">
-        <div class="section-title">
-            Trending Now
-        </div>
-        <div class="slider">
-            <div class="card">
-                <img src="New folder/image 1.webp" alt="image 1">
-                <div class="number">1</div>
-            </div> <div class="card">
-                <img src="New folder/image 2.webp" alt="image 2">
-                <div class="number">2</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 3.webp" alt="image 3">
-                <div class="number">3</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 4.webp" alt="image 4">
-                <div class="number">4</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 5.webp" alt="image 5">
-                <div class="number">5</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 6.webp" alt="image 6">
-                <div class="number">6</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 7.webp" alt="image 7">
-                <div class="number">7</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 8.webp" alt="image 8">
-                <div class="number">8</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 9.webp" alt="image 9">
-                <div class="number">9</div>
-            </div>
-             <div class="card">
-                <img src="New folder/image 10.webp" alt="image 10">
-                <div class="number">10</div>
-            </div>
-            
+    </nav>
+    <div class="header-content">
+        <h1>Unlimited movies ,TV shows and more</h1>
+        <h3>Watch anywhere. Cancel anytime</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership </p>
+        <form class="email-signup">
+            <input type="email " placeholder="Email adress"required>
+            <button type="submit">Get Started</button>
 
-        </div>
-
+        </form>
     </div>
 
+        
+</div>
+
+<div class="features">
+    <div class="row">
+        <div class="img-col">
+            <img src="images/feature-1.png">
+        </div>
+    </div>
+        <div class="text-col">
+            <h2>Enjoy on your TV.</h2>
+            <p> Watch on smart TVs , playstation , Xbox , Chromecast , Apple TV, Blue-ray players and more.</p>
+        </div>
+        
+    </div>
+    <div class="row">
+         <div class="img-col">
+            <img src="images/feature-2.png">
+        </div>
+        <div class="text-col">
+            <h2>Download your shows to watch offline.</h2>
+            <p> Save your favourites easily and always have something to watch.</p>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <img src="images/feature-3.png">
+        </div>
+        <div class="text-col">
+            <h2>Watch everywhere.</h2>
+            <p> Stream unlimited movies and TV shows on your phone,tablet,laptop and TV.</p>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="img-col">
+            <img src="images/feature-4.png">
+        </div>
+        <div class="text-col">
+            <h2>Create profiles for children..</h2>
+            <p> Send children on adventures with their favourite characters </p><p>in a space made just for them-free with your membership.</p>
+        </div>
+        
+    </div>
+
+    
+
+
+</div>
+<div class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <ul class="accordion">
+        <li>
+            <input type="radio" name="accordion" id="first">
+            <label for="first">What is Netflix?</label>
+            <div class="content">
+                <p>Netflix is a popular subscription-based streaming service providing on-demand access to a vast library of TV shows, movies, documentaries, and original content, watchable on various internet-connected devices like smart TVs, phones, tablets, and computers for a monthly fee</p>
+            </div>
+        </li>
+         <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">How much does Netflix coast?</label>
+            <div class="content">
+                <p>Netflix in India has four main plans: the Mobile plan for ₹149/month, the Basic plan for ₹199/month, the Standard plan for ₹499/month, and the Premium plan for ₹649/month. The price varies by plan, which offers different features such as video quality (\(480p\) to \(4K+HDR\)), simultaneous screens (1 to 4), and the types of devices supported. </p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Where can I watch?</label>
+            <div class="content">
+                <p>You can watch Netflix on almost any internet-connected device with the app, including smart TVs, smartphones, tablets, streaming players (like Roku, Fire Stick), game consoles (PlayStation, Xbox), and computers (via web browser at netflix.com), allowing you to watch shows and movies instantly or download them for offline viewing.  </p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Where can I watch?</label>
+            <div class="content">
+                <p>You can watch Netflix on almost any internet-connected device with the app, including smart TVs, smartphones, tablets, streaming players (like Roku, Fire Stick), game consoles (PlayStation, Xbox), and computers (via web browser at netflix.com), allowing you to watch shows and movies instantly or download them for offline viewing.  </p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">How do I cancel it?</label>
+            <div class="content">
+                <p> To cancel Netflix, log in to your account on a web browser, go to the "Account" page, and select "Cancel Membership". Follow the prompts to confirm the cancellation, and your subscription will remain active until the end of your current billing cycle.  </p>
+                
+            </div>
+        </li>
+         <li>
+            <input type="radio" name="accordion" id="fifth">
+            <label for="fifth">What can i watch on Netflix?</label>
+            <div class="content">
+                <p> You can watch popular hits like Stranger Things, Wednesday, Squid Game, Money Heist, The Crown, The Witcher, and acclaimed Indian series like Delhi Crime, plus tons of documentaries, action films (like RRR), fantasy movies, and comedies, by exploring.  </p>
+                
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="sixth">
+            <label for="sixth">Is Netflix good for students?</label>
+            <div class="content">
+                <p> Yes, Netflix can be good for students for stress relief and even some learning (documentaries/educational shows), but it's a double-edged sword; it requires discipline to balance with studies as it offers no specific student discounts and can be a major distraction. It provides great entertainment to unwind, but students need to manage viewing with time-management techniques like timers to avoid procrastination and ensure academic work gets done.   </p>
+                
+            </div>
+        </li>
+
+
+    </ul>
+    <small>Ready to watch? Enter your email to create or restart your membership</small>
+    <form class="email-signup">
+            <input type="email " placeholder="Email adress"required>
+            <button type="submit">Get Started</button>
+
+        </form>
+</div>
+<div class="footer">
+    <h2>Questions? call 000-000-000</h2>
+    <div class="row">
+        <div class="col">
+           <a href="#">FAQ</a>
+           <a href="#">Investor Relations</a>
+           <a href="#">privacy</a>
+           <a href="#">Speed Test</a>
+        </div>
+        <div class="col">
+           <a href="#">Help Center</a>
+           <a href="#">Jobs</a>
+           <a href="#">Cookies Perferences</a>
+           <a href="#">Legal Notics</a>
+        </div>
+        <div class="col">
+           <a href="#">Account</a>
+           <a href="#">Ways to watch</a>
+           <a href="#">Corporate Information</a>
+           <a href="#">only on netflix</a>
+        </div>
+        <div class="col">
+           <a href="#">Media Center</a>
+           <a href="#">Terms of use</a>
+           <a href="#">Contact Us</a>
+        
+        </div>
+    </div>
+    <button class="language-btn">English <img src="images/down-icon.png"></button>
+    <p class="copyright-txt">Netflix India</p>
+
+
+
+</div>
+    
 </body>
-
 </html>
